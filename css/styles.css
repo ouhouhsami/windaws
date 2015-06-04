@@ -1,0 +1,68 @@
+html {
+  font-size: 62.5%;
+  color:White;
+  font-family: "Lucida Console";
+  background-color: #0000AA;
+}
+
+body {
+  margin: 10;
+}
+
+h4 {
+  margin: 0;
+}
+
+#session-container {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  position: relative;
+}
+
+.track {
+  /*display: flex;*/
+  overflow: auto;
+  border-bottom: 1px solid #676767;
+  box-model: border-box;
+  height: 100%;
+}
+
+.track .controls-container {
+  height: 100%;
+  background-color: #343434;
+  float: left;
+  width: 20%;
+}
+
+.track .svg-container {
+  height: 100%;
+  background-color: #fff;
+  float: left;
+  width: 80%;
+}
+
+/* GLOBAL LAYERS */
+.track.global {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: none;
+  pointer-events: none;
+}
+
+.track.global .controls-container {
+  background-color: transparent;
+}
+
+.track.global .svg-container {
+  background-color: transparent;
+}
+
+/* CONTROLS ----------------------------- */
+.track .controls-container h4 {
+  margin: 10px;
+  color: #ffffff;
+  font-weight: normal;
+}
