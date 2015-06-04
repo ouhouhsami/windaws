@@ -9,6 +9,15 @@ body {
   margin: 10;
 }
 
+h1, h2 {
+  margin-left:10px;
+}
+
+.inv {
+  color:#0000AA;
+  background-color:#fff;
+}
+
 h4 {
   margin: 0;
 }
@@ -30,9 +39,9 @@ h4 {
 
 .track .controls-container {
   height: 100%;
-  background-color: #343434;
+  background-color: #000;
   float: left;
-  width: 20%;
+  width: 15%;
 }
 
 .track .svg-container {
@@ -65,4 +74,5 @@ h4 {
   margin: 10px;
   color: #ffffff;
   font-weight: normal;
+  font-size: 1.5em;
 }
