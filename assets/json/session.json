@@ -1,0 +1,62 @@
+﻿[
+  {
+    "id": "0",
+    "label": "Windows 3.x",
+    "period": [
+      {
+        "file": "owfw311.wav",
+        "begin": "0"
+      },
+      {
+        "file": "owin31.wav",
+        "begin": "700"
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "label": "Windows 9x",
+    "period": [
+      {
+        "file": "o95.wav",
+        "begin": "1500"
+      },
+      {
+        "file": "o98.wav",
+        "begin": "6500"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "label": "Windows NT",
+    "period": [
+      {
+        "file": "ont4.wav",
+        "begin": "9500"
+      },
+      {
+        "file": "ont5.wav",
+        "begin": "17000"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "label": "Windows 2xxx",
+    "period": [
+      {
+        "file": "ome.wav",
+        "begin": "30000"
+      },
+      {
+        "file": "oxp.wav",
+        "begin": "33000"
+      },
+      {
+        "file": "vista.wav",
+        "begin": "37000"
+      }
+    ]
+  }
+]
